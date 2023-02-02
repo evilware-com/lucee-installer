@@ -12,7 +12,7 @@ Note: You must build the Linux Installer on Linux, otherwise the file permission
 
 None of the main binaries are checked into source control, the following manual steps are required:
 
-The Lucee loader jar goes into the `lucee/lucee/lib` folder, i.e. <https://cdn.lucee.org/lucee-5.3.7.48.jar>
+The Lucee loader jar goes into the `lucee/lucee/lib` folder, i.e. <https://cdn.lucee.org/lucee-5.3.9.166.jar>
 
 Download and extract the Tomcat 9 distribution into the `lucee/tomcat9/tomcat` folder, make sure you use the `tar.gz` version for Linux or the `.zip` version for Windows
 
@@ -25,6 +25,40 @@ Download the Windows or Linux 64-bit JREs from <https://adoptopenjdk.net/release
 Download and install the InstallBuilder Enterprise Edition <https://installbuilder.com/> make sure it's x64 version
 
 Update the Version Number under Product Details in InstallBuilder
+
+your file directory structure should look as follows
+
+    /lucee-installer/
+    ---/jre/
+    ---/linux/
+    ---/lucee/
+    ---/mod_cfml/
+    ---/tomcat9/
+    ------------/bin/
+    ------------/conf/
+    ------------/lib/
+    ------------/logs/
+    ------------/webapps/
+    ------------/work/
+    ------------BUILDING.txt
+    ------------CONTRIBUTING.md
+    ------------LICENSE
+    ------------NOTICE
+    ------------README.md
+    ------------RELEASE-NOTES
+    ------------RUNNING.txt
+    ---/translations/
+    ---/windows/
+        .gitignore
+        license.txt
+        lucee.ico
+        lucee.xml
+        lucee-logo.png
+        lucee-side.png
+        README.md
+        sha512sums.txt
+        splash.png
+        tomcat.ico
 
 ## Building the Installer ##
 
