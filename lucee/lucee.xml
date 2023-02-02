@@ -2,10 +2,11 @@
     <shortName>lucee</shortName>
     <fullName>Lucee</fullName>
     <version>5.3.9.166</version>
-    <licenseFile>license.txt</licenseFile>
-    <leftImage>lucee-side.png</leftImage>
-    <logoImage>lucee-logo.png</logoImage>
-    <splashImage>splash.png</splashImage>
+    <readmeFile>C:/lucee-installer/README.md</readmeFile>
+    <licenseFile>C:/lucee-installer/license.txt</licenseFile>
+    <leftImage>C:/lucee-installer/lucee-side.png</leftImage>
+    <logoImage>C:/lucee-installer/lucee-logo.png</logoImage>
+    <splashImage>C:/lucee-installer/splash.png</splashImage>
     <componentList>
         <component>
             <name>luceecore</name>
@@ -21,19 +22,19 @@
                     <platforms>all</platforms>
                     <distributionFileList>
                         <distributionFile>
-                            <origin>tomcat.ico</origin>
+                            <origin>C:/lucee-installer/tomcat.ico</origin>
                         </distributionFile>
                         <distributionFile>
-                            <origin>lucee.ico</origin>
+                            <origin>C:/lucee-installer/lucee.ico</origin>
                         </distributionFile>
                         <distributionDirectory>
-                            <origin>lucee/lib</origin>
+                            <origin>C:/lucee-installer/lucee/lib</origin>
                         </distributionDirectory>
                         <distributionDirectory>
-                            <origin>tomcat9/tomcat</origin>
+                            <origin>C:/lucee-installer/tomcat9/tomcat</origin>
                         </distributionDirectory>
                         <distributionDirectory>
-                            <origin>mod_cfml</origin>
+                            <origin>C:/lucee-installer/mod_cfml</origin>
                         </distributionDirectory>
                     </distributionFileList>
                 </folder>
@@ -44,7 +45,7 @@
                     <platforms>windows-x64</platforms>
                     <distributionFileList>
                         <distributionDirectory>
-                            <origin>windows/AJP13</origin>
+                            <origin>C:/lucee-installer/windows/AJP13</origin>
                         </distributionDirectory>
                     </distributionFileList>
                     <ruleList>
@@ -63,7 +64,7 @@
                     <platforms>windows-x64</platforms>
                     <distributionFileList>
                         <distributionDirectory>
-                            <origin>../jre/jre64-win/jre</origin>
+                            <origin>C:/lucee-installer/jre/jre64-win/jre</origin>
                         </distributionDirectory>
                     </distributionFileList>
                     <ruleList>
@@ -82,7 +83,7 @@
                     <platforms>linux-x64</platforms>
                     <distributionFileList>
                         <distributionDirectory>
-                            <origin>linux/sys</origin>
+                            <origin>C:/lucee-installer/linux/sys</origin>
                         </distributionDirectory>
                     </distributionFileList>
                     <ruleList>
@@ -98,7 +99,7 @@
                     <platforms>linux-x64</platforms>
                     <distributionFileList>
                         <distributionDirectory>
-                            <origin>../jre/jre64-lin/jre</origin>
+                            <origin>C:/lucee-installer/jre/jre64-lin/jre</origin>
                         </distributionDirectory>
                     </distributionFileList>
                     <ruleList>
@@ -1203,62 +1204,62 @@ Please review ${installer_installation_log}.</text>
     <uninstallationLogFile>${system_temp_directory}/${project.shortName}-uninstall.log</uninstallationLogFile>
     <vendor>Lucee Association Switzerland</vendor>
     <windows64bitMode>1</windows64bitMode>
-    <windowsExecutableIcon>lucee.ico</windowsExecutableIcon>
+    <windowsExecutableIcon>C:/lucee-installer/lucee.ico</windowsExecutableIcon>
     <customLanguageFileList>
         <language>
             <code>zh_CN</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.zh_CN.txt</file>
+            <file>C:/lucee-installer/translations/messages.zh_CN.txt</file>
         </language>
         <language>
             <code>zh_TW</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.zh_TW.txt</file>
+            <file>C:/lucee-installer/translations/messages.zh_TW.txt</file>
         </language>
         <language>
             <code>nl</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.nl.txt</file>
+            <file>C:/lucee-installer/translations/messages.nl.txt</file>
         </language>
         <language>
             <code>en</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.en.txt</file>
+            <file>C:/lucee-installer/translations/messages.en.txt</file>
         </language>
         <language>
             <code>fr</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.fr.txt</file>
+            <file>C:/lucee-installer/translations/messages.fr.txt</file>
         </language>
         <language>
             <code>de</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.de.txt</file>
+            <file>C:/lucee-installer/translations/messages.de.txt</file>
         </language>
         <language>
             <code>it</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.it.txt</file>
+            <file>C:/lucee-installer/translations/messages.it.txt</file>
         </language>
         <language>
             <code>pl</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.pl.txt</file>
+            <file>C:/lucee-installer/translations/messages.pl.txt</file>
         </language>
         <language>
             <code>pt_BR</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.pt_BR.txt</file>
+            <file>C:/lucee-installer/translations/messages.pt_BR.txt</file>
         </language>
         <language>
             <code>ro</code>
             <encoding>iso8859-2</encoding>
-            <file>translations/messages.ro.txt</file>
+            <file>C:/lucee-installer/translations/messages.ro.txt</file>
         </language>
         <language>
             <code>es</code>
             <encoding>utf-8</encoding>
-            <file>translations/messages.es.txt</file>
+            <file>C:/lucee-installer/translations/messages.es.txt</file>
         </language>
     </customLanguageFileList>
     <finalPageActionList>
@@ -1734,4 +1735,3 @@ While upgrading previous installations of Lucee by reinstalling might work in so
         </platformOptions>
     </platformOptionsList>
 </project>
-
