@@ -26,11 +26,23 @@ Download and install the InstallBuilder Enterprise Edition <https://installbuild
 
 Update the Version Number under Product Details in InstallBuilder
 
-your file directory structure should look as follows
+your file directory structure should look like the following
 
     /lucee-installer/
     ---/jre/
+    -------/jre64-lin/
+    -----------------/jre/
+    -------/jre64-win/
+    -----------------/jre/
     ---/linux/
+    ---------/sys/
+    ---------/sys/mod_cfml/
+    ---------/sys/change_user.sh
+    ---------/sys/install_mod_cfml.sh
+    ---------/sys/install_mod_proxy.sh
+    ---------/sys/remove_mod_cfml.sh
+    ---------/sys/remove_mod_proxy.sh
+    ---------/sys/service_config.sh
     ---/lucee/
     ---/mod_cfml/
     ---/tomcat9/
